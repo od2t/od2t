@@ -3,6 +3,6 @@ package com.od2t;
 import io.quarkus.test.junit.QuarkusIntegrationTest;
 
 @QuarkusIntegrationTest
-class ExampleResourceIT extends ExampleResourceTest {
+class SystemResourceIT extends SystemResourceTest {
     // Execute the same tests but in packaged mode.
 }
