@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { BehaviorSubject } from 'rxjs';
+
 
 @Component({
   selector: 'app-navbar',
@@ -8,14 +8,6 @@ import { BehaviorSubject } from 'rxjs';
 })
 export class NavbarComponent {
 
-  isCollapsed = new BehaviorSubject<boolean>(false);
-
-  set collapsed(b: boolean) {
-    this.isCollapsed.next(b);
-  }
-
-  get collapsed(): boolean {
-    return this.isCollapsed.getValue();
-  }
+  isCollapsed = true;
 
 }
